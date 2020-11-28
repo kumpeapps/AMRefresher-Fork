@@ -59,7 +59,7 @@ open class AMPullToRefreshView: UIView {
         return view
     }()
 
-    public var animationsCompletionHandler: (()->Void)?
+    public var animationsCompletionHandler: (() -> Void)?
 
     // MARK: - Private vars
 
@@ -77,7 +77,7 @@ open class AMPullToRefreshView: UIView {
         return -((originalAdjustedContentInset.top + pullToRefreshViewHeight) + (originalAdjustedContentInset.top - originalContentInset.top))
     }
 
-    fileprivate var actionHandler: (()->Void)?
+    fileprivate var actionHandler: (() -> Void)?
     private var observerContext = 0
     private var originalContentInset: UIEdgeInsets = UIEdgeInsets()
     private var originalAdjustedContentInset: UIEdgeInsets = UIEdgeInsets()
