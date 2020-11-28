@@ -26,7 +26,7 @@
 import UIKit
 
 open class AMInfiniteScrollingView: UIView {
-    //MARK: - Public vars
+    // MARK: - Public vars
 
     open var infiniteScrollingViewHeight: CGFloat = 40.0 {
         didSet {
@@ -46,7 +46,7 @@ open class AMInfiniteScrollingView: UIView {
             }
         }
     }
-    
+
     public var contentView: UIView = {
         let view = UIView()
         view.backgroundColor = .clear
@@ -55,7 +55,7 @@ open class AMInfiniteScrollingView: UIView {
     }()
 
     public var animationsCompletionHandler: (()->Void)?
-    //MARK: - Private vars
+    // MARK: - Private vars
 
     fileprivate weak var scrollView: UIScrollView? {
         didSet {
@@ -81,7 +81,7 @@ open class AMInfiniteScrollingView: UIView {
         return (max(scrollView.contentSize.height - scrollView.bounds.height, -adjustedContentInset.top) + originalAdjustedContentInset.bottom - scrollView.contentOffset.y) > 0
     }
 
-    fileprivate var actionHandler: (()->Void)?
+    fileprivate var actionHandler: (() -> Void)?
     private var observerContext = 0
     private var originalContentInset: UIEdgeInsets = UIEdgeInsets()
     private var originalAdjustedContentInset: UIEdgeInsets = UIEdgeInsets()
@@ -143,7 +143,7 @@ open class AMInfiniteScrollingView: UIView {
         }
     }
 
-    public func hideInfiniteScrollingView(animated: Bool = true, completion handler: (()->Void)? = nil) {
+    public func hideInfiniteScrollingView(animated: Bool = true, completion handler: (() -> Void)? = nil) {
         isInfiniteScrollingViewForceHidden = true
         resetContentInset(animated: animated, completion: {
             handler?()
