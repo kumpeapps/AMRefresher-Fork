@@ -6,23 +6,23 @@ Note: This project is no longer maintained.
 [![Platform](https://img.shields.io/cocoapods/p/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher)
 
 
-# AMRefresher
+# AMRefresher-Fork
 Super easy way to use "Pull To Refresh" and "Infinite Scrolling" with 1 line of code
 
 <img src="https://raw.githubusercontent.com/arturdev/AMRefresher/master/demo.gif">
 
 ## Installation
 
-SwiftyCodeView is available through [CocoaPods](https://cocoapods.org). To install
+AMRefresher-Fork is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod 'AMRefresher'
+```Swift
+pod 'AMRefresher-Fork'
 ```
 
 Or
 
-Copy the AMRefresher folder to your project.
+Copy the AMRefresher-Fork folder to your project.
 
 ## Usage
 
@@ -69,14 +69,7 @@ public func setCustomView(_ view: UIView, for state: AM.State)
 ```
 So you can call this method and pass any UIView you want to show for each state.
 
-
-## Author
-
-arturdev, mkrtarturdev@gmail.com
-
-Feel free to open issues, feature requests and point bugs/mistakes!
-
 ## License
 
-SwiftyCodeView is available under the MIT license. See the LICENSE file for more info.
+AMRefresher-Fork is available under the MIT license. See the LICENSE file for more info.
 
