@@ -1,4 +1,4 @@
-Note: This project is forked from AMRefresher as the original project is no longer maintained.
+Note: This project is forked from AMRefresher as the original project is no longer maintained I will continue to maintain this project via [JKRefresher](https://github.com/kumpeapps/JKRefresher).
 
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a877d4d4182146f6a2204e524f073303)](https://app.codacy.com/gh/kumpeapps/AMRefresher-Fork?utm_source=github.com&utm_medium=referral&utm_content=kumpeapps/AMRefresher-Fork&utm_campaign=Badge_Grade)
