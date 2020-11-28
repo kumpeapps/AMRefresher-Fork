@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AMRefresher-Fork'
+  s.name             = 'AMRefresher'
   s.platform = :ios
   s.version          = ENV['LIB_VERSION'] || '1.1' #fallback to major version
   s.summary          = 'Super easy way to use "Pull To Refresh" and "Infinite Scrolling" with 1 line of code'
