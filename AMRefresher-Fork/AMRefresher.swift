@@ -23,7 +23,6 @@
 // COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
-
 import UIKit
 
 fileprivate struct AssociatedKeys {
@@ -55,13 +54,13 @@ public struct AM {
         public init(rawValue: Int) {
             self.rawValue = rawValue
         }
-        
+
         public static let stopped   = State(rawValue: 1 << 0)
         public static let triggered = State(rawValue: 1 << 1)
         public static let loading   = State(rawValue: 1 << 2)
-        
+
         public static let all: State  = [.stopped, .triggered, .loading]
-        
+
         public var stringValue: String {
             switch self {
             case .stopped:
@@ -76,16 +75,16 @@ public struct AM {
                 return ""
             }
         }
-        
+
         public var hashValue: Int {
             return self.rawValue
         }
     }
-    
+
     internal weak var scrollView: UIScrollView?
     public var pullToRefreshView: AMPullToRefreshView?
     public var infiniteScrollingView: AMInfiniteScrollingView?
-    
+
     fileprivate init(_ scrollView: UIScrollView) {
         self.scrollView = scrollView
     }

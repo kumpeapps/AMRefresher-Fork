@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AMRefresher'
+  s.name             = 'AMRefresher-Fork'
   s.platform = :ios
   s.version          = ENV['LIB_VERSION'] || '1.1' #fallback to major version
   s.summary          = 'Super easy way to use "Pull To Refresh" and "Infinite Scrolling" with 1 line of code'
@@ -23,7 +23,7 @@ Super easy way to use "Pull To Refresh" and "Infinite Scrolling" with 1 line of 
   s.source = { :git => 'https://github.com/kumpeapps/AMRefresher-Fork.git', :tag => "#{s.version}" }
   
   s.ios.deployment_target = '14.0'
-  s.source_files = 'AMRefresher/*'
+  s.source_files = 'AMRefresher-Fork/*'
   s.swift_version = '5'
   s.frameworks = 'UIKit'
 end
