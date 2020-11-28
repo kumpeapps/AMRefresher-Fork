@@ -26,7 +26,7 @@
 import UIKit
 
 open class AMInfiniteScrollingView: UIView {
-    //MARK: - Public vars
+    // MARK: - Public vars
 
     open var infiniteScrollingViewHeight: CGFloat = 40.0 {
         didSet {
