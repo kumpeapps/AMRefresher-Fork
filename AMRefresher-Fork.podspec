@@ -23,7 +23,7 @@ Super easy way to use "Pull To Refresh" and "Infinite Scrolling" with 1 line of 
   s.source = { :git => 'https://github.com/kumpeapps/AMRefresher-Fork.git', :tag => "#{s.version}" }
   
   s.ios.deployment_target = '14.0'
-  s.source_files = 'AMRefresher-Fork/*'
+  s.source_files = 'AMRefresher-Fork/**/*.{swift,storyboard,xib,png}'
   s.swift_version = '5'
   s.frameworks = 'UIKit'
 end
