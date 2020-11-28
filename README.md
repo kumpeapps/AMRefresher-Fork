@@ -1,9 +1,9 @@
-Note: This project is no longer maintained.
+Note: This project is forked from AMRefresher as the original project is no longer maintained.
 
 
-[![Version](https://img.shields.io/cocoapods/v/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher)
-[![License](https://img.shields.io/cocoapods/l/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher)
-[![Platform](https://img.shields.io/cocoapods/p/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher)
+[![Version](https://img.shields.io/cocoapods/v/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher-Fork)
+[![License](https://img.shields.io/cocoapods/l/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher-Fork)
+[![Platform](https://img.shields.io/cocoapods/p/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher-Fork)
 
 
 # AMRefresher-Fork
