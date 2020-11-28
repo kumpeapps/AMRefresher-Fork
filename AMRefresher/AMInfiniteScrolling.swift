@@ -284,7 +284,7 @@ open class AMInfiniteScrollingView: UIView {
 }
 
 public extension AM {
-    public mutating func addInfiniteScrolling(action handler: @escaping () -> Void) {
+    mutating func addInfiniteScrolling(action handler: @escaping () -> Void) {
         infiniteScrollingView?.removeFromSuperview()
         infiniteScrollingView = AMInfiniteScrollingView()
         infiniteScrollingView?.actionHandler = handler

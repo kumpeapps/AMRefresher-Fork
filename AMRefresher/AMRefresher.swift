@@ -37,7 +37,7 @@ public protocol AMExtensionsProvider: class {
 
 public extension AMExtensionsProvider {
     /// A proxy which hosts reactive extensions for `self`.
-    public var am: AM {
+    var am: AM {
         get {
             return objc_getAssociatedObject(self, &AssociatedKeys.am) as? AM ?? AM(self as! UIScrollView)
         }

@@ -272,7 +272,7 @@ open class AMPullToRefreshView: UIView {
 }
 
 public extension AM {
-    public mutating func addPullToRefresh(action handler: @escaping () -> Void) {
+    mutating func addPullToRefresh(action handler: @escaping () -> Void) {
         pullToRefreshView?.removeFromSuperview()
         pullToRefreshView = AMPullToRefreshView()
         pullToRefreshView?.actionHandler = handler
