@@ -1,6 +1,7 @@
 Note: This project is forked from AMRefresher as the original project is no longer maintained.
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a877d4d4182146f6a2204e524f073303)](https://app.codacy.com/gh/kumpeapps/AMRefresher-Fork?utm_source=github.com&utm_medium=referral&utm_content=kumpeapps/AMRefresher-Fork&utm_campaign=Badge_Grade)
 [![Version](https://img.shields.io/cocoapods/v/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher-Fork)
 [![License](https://img.shields.io/cocoapods/l/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher-Fork)
 [![Platform](https://img.shields.io/cocoapods/p/AMRefresher.svg?style=flat)](https://cocoapods.org/pods/AMRefresher-Fork)
